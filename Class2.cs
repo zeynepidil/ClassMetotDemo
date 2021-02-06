@@ -1,8 +1,20 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
-public class Class1
+namespace ClassMetotDemo
 {
-	public Class1()
-	{
-	}
+    class CustomerManager
+    {
+        public void Add(Customer customer)
+        {
+            Console.WriteLine(customer.CustomerName, customer.CustomerSurname,customer.CustomerAge);
+        }
+        public void Delete(Customer customer)
+
+        {
+            Console.WriteLine(customer.CustomerNumber);
+        }
+        
+    }
 }

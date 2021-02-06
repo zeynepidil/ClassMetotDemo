@@ -1,14 +1,18 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
-class Musterı
+namespace ClassMetotDemo
 {
-	public int Id { get; set; }
-	{
-	public string Adi { get; set; }
+    class Customer
+    {
+        public string Id { get; set; }
+        public string CustomerName { get; set; }
+        public string CustomerSurname { get; set; }
 
-    public string Soyadi { get; set; }
+        public double CustomerAge { get; set; }
 
-	public int Yas { get; set; }
+        public double CustomerNumber { get; set; }
 
-}
+    }
 }
